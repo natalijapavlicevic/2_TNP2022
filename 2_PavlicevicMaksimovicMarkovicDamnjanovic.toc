@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}{2}{section.1}%
+\contentsline {section}{\numberline {2}Algoritmi u odabiru reklama}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Kako ovaj algoritam doprinosi uspešnosti reklama?}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Koliki efekat zapravo može da postigne personalizovan marketing?}{3}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}Mišljenje korisnika o reklamama na internetu}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Da li korisnici veruju reklamama na internetu?}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Koliko cesto korisnici klikcu na reklame?}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Doprinos od reklama}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Da li se treba reklamirati?}{4}{subsection.4.1}%
+\contentsline {section}{Literatura}{5}{subsection.4.1}%
