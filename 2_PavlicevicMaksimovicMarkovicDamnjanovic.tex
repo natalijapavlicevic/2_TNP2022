@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc} % make weird characters work
 \usepackage{graphicx}
 
-
+\usepackage[english,serbian]{babel}
 \usepackage[unicode]{hyperref}
 \hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
 
@@ -19,10 +19,9 @@
 \date{15.~novembar 2022.}
 \maketitle
 \begin{document}
-	
-	\abstract{Ovo je apstrakt za ovaj seminarski rad.
-	}
-	
+	\renewcommand{\abstractname}{Apstrakt}
+	\abstract{Biti prisutan na društvenim mrežama u današnjici znači biti deo jedne funkcionalne simbioze u kojoj i potrošač i kompanije imaju koristi -- kompanije tako što će lako dopreti do ciljane publike, a potrošači će primati informacije o oglasima koji ih zanimaju - ili bar 			algoritam tako procenjuje. Ali kako ovaj naizgled jednostavan proces funkcioniše? Koje to podaci o korisnicima su čuvani i koji je to realan doprinos ovog tipa marketinga su samo neka od pitanja koja okružuju ovaj vid oglašavanja. Jedno je sigurno - njigova popularnost u 		budućnosti će samo rasti.}
+	\renewcommand{\contentsname}{Sadržaj}
 	\tableofcontents
 	
 	\newpage
@@ -33,7 +32,7 @@
 	
 	\section{Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}
 	\label{sec:podaci}
-	Ciljano reklamiranje je sve veća oblast interesovanja za i poslovne i istraživačke zajednice. Reklame u mobilnim uslugama i oglasi u aplikaciji predstavljaju oblast rasta u nastajanju, u kojoj ciljano reklamiranje postaje sve važniji izvor prihoda i za oglašivače i za reklamne kompanije. Oglašivači sve više koriste personalizovano reklamiranje koje je prilagođeno potrošačima na osnovu podataka koji se tiču njihovih preferencija i ponašanja, a koje dobijaju prikupljanjem njihovih ličnih podataka koji se obrađuju za svrhe profilisanja i ciljanja. Podaci koje pružaju korisnici omogućavaju onlajn provajderima društvenih medija da personalizuju svoj sadržaj. Personalizacijom oni ciljaju na relevantniji oglasni sadržaj s jedne strane i ostvaruju veći profit za oglašivače s druge strane, čineći oglase efikasnijim i ciljanijim.
+	Ciljano reklamiranje je sve veća oblast interesovanja za i poslovne i istraživačke zajednice. Reklame u mobilnim uslugama i oglasi u aplikaciji predstavljaju oblast rasta u nastajanju, u kojoj ciljano reklamiranje postaje sve važniji izvor prihoda i za oglašivače i za reklamne kompanije. Oglašivači sve više koriste personalizovano reklamiranje koje je prilagođeno potrošačima na osnovu podataka koji se tiču njihovih preferencija i ponašanja, a koje dobijaju prikupljanjem njihovih ličnih podataka koji se obrađuju za svrhe profilisanja i ciljanja. Podaci koje pružaju korisnici omogućavaju onlajn provajderima društvenih medija da personalizuju svoj sadržaj. Personalizacijom oni ciljaju na relevantniji oglasni sadržaj s jedne strane i ostvaruju veći profit za oglašivače s druge strane, čineći oglase efikasnijim i ciljanijim.
 	Društvene mreže su mesto u kom danas ljudi slobodno izražavaju emocije. One prikupljaju podatke u strukturisanim i nestrukturisanim, formalnim i neformalnim podacima. Okupljeni podaci sadrže osećanja i mišljenja korisnika koji će biti obrađeni tehnikama rudarenja podataka i analizirani za postizanje smislenih informacija iz njega. Koristeći podatke društvenih medija možemo klasifikovati tip korisnika analizom njihovih objavljenih podataka na društvenim veb stranicama. Svi ovi podaci sadrže ključne reči koje igraju glavnu ulogu kad se radi o oglašavanju ciljanoj grupi ljudi.
 	
 	\subsection{Kolačići}
@@ -44,7 +43,7 @@
 	\label{subsec:vrstekolacica}
 	\textbf{Sesijski kolačići.} Sesijski kolačići pomažu veb stranici da prati sesiju korisnika. Sesijski kolačići se brišu kada korisnik napusti veb sajt ili se odjavi sa svog naloga. Sesijski kolačići nemaju rok trajanja, pa se brišu kad se sesija završi. 
 	
-	\textbf{Trajni kolačići.} Trajni kolačići uvek sadrže rok trajanja I za razliku od sesijskih kolačića ostaju u pregledaču unapred određeno vreme. 
+	\textbf{Trajni kolačići.} Trajni kolačići uvek sadrže rok trajanja i za razliku od sesijskih kolačića ostaju u pregledaču unapred određeno vreme. 
 	
 	\textbf{Kolačići za autentifikaciju.} Kolačići za autentifikaciju pomažu u upravljanju korisničkim sesijama. Služe za to da se osetljive informacije prenesu do pravih korisničkih sesija povezivanjem informacija o korisničkom nalogu sa nizom identifikatora kolačića. 
 	
@@ -57,7 +56,7 @@
 	\section{Algoritmi u odabiru reklama}
 	\label{sec:algoritmi}
 	Zašto mi Gugl (eng.~{\em Google}) i Fejsbuk (eng.~{\em Facebook}) nekad predlažu baš ono o čemu razmišljam? Kako to oni mogu uopšte znati? Odgovor glasi: algoritmi. Svakodnevno, upotrebom društvenih mreža, susrećemo se sa reklamama u različitim oblicima. Međutim, 		kako funkcioniše algoritam koji personalizuje reklamni sadržaj za svakog korisnika zasebno?\\ \\
-	Postoji nešto što se zove trag na internetu (eng. digital footprint) i baš kao što i sam naziv kaže ukazuje na činjenicu da se svaki naš korak na internetu posmatra, prati, meri, beleži i čuva. Kako je tehnologija napredovala, u stopu su je pratili i algoritmi koji ove podatke 		obrađuju pa tako oni danas obrađuju sve do najsitnijih detalja – od toga na šta smo kliknuli ali i šta smo ignorisali, koliko smo se sekundi, minuta ili sati zadržali na svakom sadržaju. Sve ovo čini konstantan priliv podataka u sistem koji je potpuno mašinski osamostaljen tj. ne 		zahteva nadzor čoveka, a u cilju personalizacije sadržaja. Neke društvene mreže pružaju opciju pregleda zašto nam se neki oglas prikazuje. Primer za to je na slici \ref{fig:zastoreklama} : 
+	Postoji nešto što se zove trag na internetu (eng. digital footprint) i baš kao što i sam naziv kaže ukazuje na činjenicu da se svaki naš korak na internetu posmatra, prati, meri, beleži i čuva. Kako je tehnologija napredovala, u stopu su je pratili i algoritmi koji ove podatke 		obrađuju pa tako oni danas obrađuju sve do najsitnijih detalja – od toga na šta smo kliknuli ali i šta smo ignorisali, koliko smo se sekundi, minuta ili sati zadržali na svakom sadržaju. Sve ovo čini konstantan priliv podataka u sistem koji je potpuno mašinski osamostaljen tj. ne 		zahteva nadzor čoveka, a u cilju personalizacije sadržaja. Neke društvene mreže pružaju opciju pregleda zašto nam se neki oglas prikazuje. Primer za to je na slici \ref{fig:zastoreklama}. \\
 	\begin{figure}[h!]
 		\begin{center}
 			\includegraphics[scale=0.1]{zastoreklama.jpg}
@@ -89,6 +88,7 @@
 	\label{subsec:veovanje_reklamama}
 	Dosta korisnika veruje reklamama na internetu ali samo onim koji su provereni ili se pronalaze u njima.Naravno ima određeni broj korisnika koji ne veruje reklamama i oni misle da su te reklame samo prevare koje privlače korisnike da kupe proizvode koji nisu tako dobri kao na reklama.U nastavku možete videti tabelu \ref{tab:verovanje_reklamama} koliko procenata veruje,a koliko ne.
 	
+	\renewcommand{\tablename}{Tabela}
 	\begin{table}[h!]
 		\begin{center}
 			\caption{Verovanje reklamama}
@@ -129,6 +129,8 @@
 	4.Društvene mreže su dovele do značajnog porasta stopi koverzije u poređenju sa tradicionalnim marketingom 
 	Ovo istraživanje izvršeno je od stane hubspot marketing statistics.
 	
+	\renewcommand{\refname}{Literatura}
+
 	\newpage
 	\addcontentsline{toc}{section}{Literatura}
 	\appendix
@@ -140,23 +142,22 @@
 	
 	\begin{thebibliography}{9}
 		
-		\bibitem{marketingstatistics} Marketing statistics online at:https://www.hubspot.com/marketing-statistics
+		\bibitem{marketingstatistics} Marketing statistics on-line at:https://www.hubspot.com/marketing-statistics
 		
-		\bibitem{socialserbia} Social Serbia 2020 online at:https://pioniri.com/sr/socialserbia2020/
+		\bibitem{socialserbia} Social Serbia 2020 on-line at:https://pioniri.com/sr/socialserbia2020/
 		
-		\bibitem{algoritmi}	Guide to social media ad algorithms online at https://digivizer.com/blog/your-guide-to-social-media-ad-algorithms/ 
+		\bibitem{algoritmi}	Guide to social media ad algorithms on-line at https://digivizer.com/blog/your-guide-to-social-media-ad-algorithms/ 
 		
-		\bibitem{statistikai} Kako da ponudite kupcima personalizovano iskustvo kakvo žele online at https://www.biznis-akademija.com/blog/kako-da-ponudite-kupcima-personalizovano-iskustvo-kakvo-zele
+		\bibitem{statistikai} Kako da ponudite kupcima personalizovano iskustvo kakvo žele on-line at https://www.biznis-akademija.com/blog/kako-da-ponudite-kupcima-personalizovano-iskustvo-kakvo-zele
 		
-		\bibitem{podaci} The Influence of Consumer–Brand Relationship on the Personalized Advertising Privacy Calculus in Social Media online at: https://www.sciencedirect.com/science/article/abs/pii/S1094996821000104        
+		\bibitem{podaci} The Influence of Consumer–Brand Relationship on the Personalized Advertising Privacy Calculus in Social Media on-line at: https://www.sciencedirect.com/science/article/abs/pii/S1094996821000104        
 		
-		\bibitem{personalizacija} Investigating users’ experience on social media ads: perceptions of young users online at: https://www.sciencedirect.com/science/article/pii/S2405844020312226
+		\bibitem{personalizacija} Investigating users’ experience on social media ads: perceptions of young users on-line at: https://www.sciencedirect.com/science/article/pii/S2405844020312226
 		
-		\bibitem{kolacici} What are cookies? | Cookies definition https://www.cloudflare.com/learning/privacy/what-are-cookies/
+		\bibitem{kolacici} What are cookies? | Cookies definition on-line at https://www.cloudflare.com/learning/privacy/what-are-cookies/
 		
 		
 	\end{thebibliography}
-	
 	
 	\appendix
 \end{document}
