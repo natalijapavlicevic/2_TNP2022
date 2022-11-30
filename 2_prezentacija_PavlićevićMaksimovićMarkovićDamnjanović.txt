@@ -1,0 +1,70 @@
+\documentclass{beamer}
+\usepackage[ utf 8]{ inputenc }
+\usepackage[serbian]{babel}
+\usetheme{CambridgeUS}
+\setbeamercolor{item projected}{bg=red}
+\setbeamercolor{caption name}{fg=red}
+\usepackage{fancybox,graphicx}
+
+\title{Reklame na društvenim mrežama}
+\author[Maksimović,Pavlićević,Marković,Damnjanović  ]{Teodora Maksimović\\Natalija Pavlićević\\
+Branka Marković\\Mihailo~Damnjanović}
+\institute[]{Matematički fakultet, Univerzitet u Beogradu}
+\date{4.11.2022.}
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}
+\begin{itemize}
+    \item Ciljano reklamiranje postaje sve važniji izvor prihoda i za oglašivače i za reklamne kompanije.
+    \item Podaci koje pružaju korisnici omogućavaju onlajn provajderima društvenih medija da personalizaciju svog sadržaja
+    \item Personalizacijom se cilja na relevantniji oglasni sadržaj i ostvarivanje većeg profita za oglašivače.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}
+\begin{itemize}
+    \item Okupljeni podaci se obrađuju i analiziraju zarad postizanja smislenih informacija.
+    \item Koristeći podatke klasifikuju se tipovi korisnika. \item Sadržane ključne reči igraju glavnu ulogu u oglašavanju ciljanoj grupi ljudi.
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+\frametitle{Algoritmi u odabiru reklama}
+\begin{itemize}
+    \item Trag na internetu
+    \item Konstantan priliv podataka u sistem koji je potpuno mašinski osamostaljen
+    \item Algoritam društvenih medija bira oglase za koje misli da će korisnici biti zainteresovani, na osnovu prikupljenih podataka
+\end{itemize} 
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+    \item Određene platforme nam pružaju mogućnost da vidimo zašto su nam prikazale baš taj oglas. Primer za to je Fejsbuk (eng.~{\em Facebook}) :
+\end{itemize}
+\begin{figure}[h!]
+\begin{center}
+\shadowbox{\includegraphics[scale=0.15]{zastoreklama.jpg}}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Kako ovaj algoritam doprinosi uspešnosti reklama?}
+\begin{itemize}
+    \item Od 10\% do 30\% veći profit za oglašivače
+    \item Doprinosi impulsivnoj kupovini
+    \item Smanjenje vraćanja robe
+    \item Povećanje lojalnosti usled personalizovanog iskustva
+\end{itemize}
+\end{frame}
+
+\end{document}
+
+
+
+
+
+
+
