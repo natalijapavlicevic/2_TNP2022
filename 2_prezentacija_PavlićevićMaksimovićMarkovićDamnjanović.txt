@@ -17,16 +17,16 @@ Branka Marković\\Mihailo~Damnjanović}
 
 \begin{frame}{Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}
 \begin{itemize}
-    \item Ciljano reklamiranje postaje sve važniji izvor prihoda i za oglašivače i za reklamne kompanije.
+    \item Ciljano reklamiranje postaje sve važniji izvor prihoda i za oglašivače i za reklamne kompanije
     \item Podaci koje pružaju korisnici omogućavaju onlajn provajderima društvenih medija da personalizaciju svog sadržaja
-    \item Personalizacijom se cilja na relevantniji oglasni sadržaj i ostvarivanje većeg profita za oglašivače.
+    \item Personalizacijom se cilja na relevantniji oglasni sadržaj i ostvarivanje većeg profita za oglašivače
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Prikupljanje podataka korisnika u cilju personalizovanog oglašavanja}
 \begin{itemize}
-    \item Okupljeni podaci se obrađuju i analiziraju zarad postizanja smislenih informacija.
-    \item Koristeći podatke klasifikuju se tipovi korisnika. \item Sadržane ključne reči igraju glavnu ulogu u oglašavanju ciljanoj grupi ljudi.
+    \item Okupljeni podaci se obrađuju i analiziraju zarad postizanja smislenih informacija
+    \item Koristeći podatke klasifikuju se tipovi korisnika \item Sadržane ključne reči igraju glavnu ulogu u oglašavanju ciljanoj grupi ljudi
 \end{itemize}
     
 \end{frame}
